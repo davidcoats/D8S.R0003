@@ -1,0 +1,16 @@
+@namespace D8S.R0003
+
+
+<a href="https://www.youtube.com/watch?v=vJG698U2Mvo">@this.Text</a>
+
+
+@code{
+    public const string DefaultText = "gorilla selective attention test";
+
+
+    /// <summary>
+    /// The text to use for the link.
+    /// </summary>
+    [Parameter]
+    public string Text { get; set; } = GorillaPerceptionFailed.DefaultText;
+}
